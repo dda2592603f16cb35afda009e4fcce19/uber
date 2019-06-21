@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+   app:
+      image: bakkegaard/foodtrucks
+      restart: always
+      ports:
+         - 8080:8080
+      #volumes:
+         #- /home/nick/git/uber/config:/usr/src/config
+         #- /home/nick/git/uber/logs:/usr/src/logs

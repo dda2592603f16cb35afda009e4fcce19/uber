@@ -1,0 +1,13 @@
+#map { height: 100%; }
+body {
+  margin: 0
+}
+#search{
+  position: absolute;
+    z-index: 200000;
+      right: 30px;
+}
+#search input {
+float: right;
+}
+.ui-autocomplete { position: absolute; cursor: default;z-index:20000000 !important;}
